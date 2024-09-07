@@ -1,0 +1,3 @@
+Manifest-Version: 2.0
+Main-Class: src.java.edu.school21.printer.app.Main
+Created-By: leonidak
