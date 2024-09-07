@@ -1,4 +1,3 @@
-
 # Создание папки target и копирование библиотек
 rm -rf target && mkdir target && cd target && jar xf ../lib/JCDP-4.0.0.jar && jar xf ../lib/jcommander-1.72.jar && cd ..
 
@@ -10,3 +9,5 @@ jar cfm target/ImagesToChar-folder.jar src/manifest.txt -C ./target .
 
 # Запуск
 java -jar target/ImagesToChar-folder.jar --white= GREEN --black= RED
+
+![it](images/it_red.png)
